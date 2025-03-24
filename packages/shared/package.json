@@ -1,9 +1,12 @@
 {
   "name": "@vue/shared",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/shared.esm-bundler.js",
   "license": "MIT",
   "buildOptions": {
+    "sourcemap":true,
+    "target": "esnext",
+    "name":"VueShared",
     "formats": [
       "esm-bundler",
       "cjs"

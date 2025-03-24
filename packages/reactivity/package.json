@@ -1,13 +1,13 @@
 {
   "name": "@vue/reactivity",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/reactivity.esm-bundler.js",
   "license": "MIT",
   "buildOptions": {
     "name": "VueReactivity",
+    "sourcemap":true,
     "formats": [
       "esm-bundler",
-      "esm-browser",
       "cjs",
       "global"
     ]

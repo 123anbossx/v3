@@ -17,5 +17,7 @@ function runParaller(dirs){
   }))
 }
 function build(target){
-   return execa('rollup',['-c','--environment',`TARGET:${target}`])
+   return execa('rollup',['-c','--environment',`TARGET:${target}`],{
+    stdio:'inherit'
+  })
 }

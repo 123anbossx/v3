@@ -26,11 +26,13 @@
     // "moduleDetection": "auto",                        /* 控制用于检测模块格式 JS 文件的方法 */
 
     /* 模块 */
-    "module": "commonjs",                                /* 指定生成的模块代码 */
+    "module": "ESNext",                                /* 指定生成的模块代码 */
     // "rootDir": "./",                                  /* 指定源文件中的根文件夹 */
-    // "moduleResolution": "node10",                     /* 指定 TypeScript 如何从给定的模块说明符查找文件 */
-    // "baseUrl": "./",                                  /* 指定用于解析非相对模块名称的基本目录 */
-    // "paths": {},                                      /* 指定一组将导入重新映射到其他查找位置的条目 */
+    "moduleResolution": "node",                     /* 指定 TypeScript 如何从给定的模块说明符查找文件 */
+    "baseUrl": "./",                                  /* 指定用于解析非相对模块名称的基本目录 */
+    "paths": {                // 添加路径映射
+      "@vue/*": ["packages/*/src"]
+    },                                     /* 指定一组将导入重新映射到其他查找位置的条目 */
     // "rootDirs": [],                                   /* 允许在解析模块时将多个文件夹视为一个文件夹 */
     // "typeRoots": [],                                  /* 指定多个行为类似于 './node_modules/@types' 的文件夹 */
     // "types": [],                                      /* 指定要包含的类型包名称，无需在源文件中引用 */
