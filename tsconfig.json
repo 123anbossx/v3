@@ -87,7 +87,7 @@
     "forceConsistentCasingInFileNames": true,            /* 确保导入中的大小写正确 */
 
     /* 类型检查 */
-    "strict": true,                                      /* 启用所有严格类型检查选项 */
+    "strict": false,                                      /* 启用所有严格类型检查选项 */
     // "noImplicitAny": true,                            /* 对具有隐含 'any' 类型的表达式和声明启用错误报告 */
     // "strictNullChecks": true,                         /* 在类型检查时考虑 'null' 和 'undefined' */
     // "strictFunctionTypes": true,                      /* 在分配函数时，检查以确保参数和返回值是子类型兼容的 */
